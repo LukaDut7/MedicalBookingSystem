@@ -1,1 +1,2 @@
-This project is created to review skills obtained during this course. I've created a unique website for StayHealthy company. Now users can book their appointsments and give reviews for doctors.
+# Medical Appointment Booking
+- It is a website for StayHealthy company. The users can book their appointsments and give reviews for doctors.
