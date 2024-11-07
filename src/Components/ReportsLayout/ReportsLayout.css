@@ -1,0 +1,42 @@
+.report-form-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 80px; /* Ensure content appears after the Navbar */
+    font-family: 'Inter', sans-serif; /* Apply Inter font */
+  }
+  
+  .consultation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .consultation-table th, .consultation-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .consultation-table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Make feedback buttons blue */
+  .report-button {
+    padding: 8px 12px;
+    background-color: #007BFF; /* Blue color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+
+  }
+  
+  /* Hover effect for feedback buttons */
+  .report-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }

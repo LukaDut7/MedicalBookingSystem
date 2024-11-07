@@ -1,0 +1,39 @@
+import React from "react"; // Importing the necessary modules from React library
+import { Link } from "react-router-dom"; // Importing the Link component from react-router-dom library
+import "./Landing_Page.css";
+function Landing_Page(){
+return (
+    <div>
+        <section className="hero-section">
+        <div>
+          <div data-aos="fade-up" className="flex-hero">
+              
+              <h1>
+                Your Health<br/>
+                <span className="text-gradient">
+                  
+                  Our Responsibility
+                </span>
+              </h1>
+                <div className="blob-cont">
+                    <div className="blue blob"></div>
+                </div>
+                <div className="blob-cont">
+                    <div className="blue1 blob"></div>
+                </div>
+              <h4>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque at quae ducimus. Suscipit omnis quibusdam non cum rem voluptatem! 
+              </h4>
+              <Link to="/booking-consultation">
+                <button className="button">Get Started</button>
+              </Link>
+                
+          </div>
+  
+        </div>
+      </section>
+    </div>
+
+);
+}
+export default Landing_Page;
